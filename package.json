@@ -1,0 +1,19 @@
+{
+  "name": "junction",
+  "version": "1.0.0",
+  "description": "Cache requests during sandboxing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandresobolevski/junction.git"
+  },
+  "author": "Alexandre Sobolevski <sobolevski.a@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexandresobolevski/junction/issues"
+  },
+  "homepage": "https://github.com/alexandresobolevski/junction#readme"
+}
