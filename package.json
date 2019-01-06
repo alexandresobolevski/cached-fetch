@@ -4,16 +4,24 @@
   "description": "Cache requests during sandboxing",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexandresobolevski/junction.git"
   },
-  "author": "Alexandre Sobolevski <sobolevski.a@gmail.com>",
+  "author": "Alexandre Sobolevski <contact@alexandresobolevski.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alexandresobolevski/junction/issues"
   },
-  "homepage": "https://github.com/alexandresobolevski/junction#readme"
+  "homepage": "https://github.com/alexandresobolevski/junction#readme",
+  "dependencies": {
+    "filenamify": "^2.1.0",
+    "node-fetch": "^2.3.0",
+    "rimraf": "^2.6.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
