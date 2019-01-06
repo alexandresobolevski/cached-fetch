@@ -13,5 +13,6 @@ describe('saves to cache request', () => {
     const body = await response.json();
     const response2 = await cachedFetch('https://api.thedogapi.com/v1/images/search?size=med&mime_types=jpg&format=json&has_breeds=true&order=RANDOM&page=0&limit=1');
     const body2 = await response2.json();
+    // TODO: do actual verification here
   });
 });

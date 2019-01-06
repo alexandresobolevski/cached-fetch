@@ -1,5 +1,5 @@
 {
-  "name": "junction",
+  "name": "cached-fetch",
   "version": "1.0.0",
   "description": "Cache requests during sandboxing",
   "main": "index.js",
